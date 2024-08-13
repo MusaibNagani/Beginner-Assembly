@@ -1,0 +1,4 @@
+lab6.asm - Description
+This assembly program generates random uppercase strings, similar to a previous assignment. The program initializes a loop to run 20 times, within which it calls the genString procedure to generate a 10-character random string on each iteration.
+
+In the genString procedure, the program generates a random number between 0 and 25 using the RandomRange procedure, which corresponds to lowercase letters ('a' to 'z'). By adding 65 to these values, the program converts the characters to their uppercase equivalents ('A' to 'Z'). These characters are stored in an array and printed to the console one by one using the WriteChar procedure. After each 10-character string is generated, a newline is printed with the Crlf procedure, and the program returns control to the main loop, repeating the process until 20 strings have been generated.

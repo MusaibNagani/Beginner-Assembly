@@ -1,0 +1,11 @@
+This assembly program consists of three parts, each demonstrating different operations on signed and unsigned data types:
+
+Program 1: Arithmetic Operations
+
+The program performs a series of arithmetic operations on signed double-word variables (val1, val2, val3) to compute the equation EAX = -val2 + 7 - val3 + val1. The result is stored in the EAX register and is then displayed using DumpRegs.
+Program 2: Unsigned Array Handling
+
+This part of the program demonstrates how to move elements from an unsigned word array (Uarray) into the registers EAX, EBX, ECX, and EDX using the MOVZX instruction, which zero-extends the values. The contents of the registers are then displayed using DumpRegs.
+Program 3: Signed Array Handling
+
+The final part of the program handles signed word values from an array (Sarray). The elements are moved into the same registers as before, but using the MOVSX instruction, which sign-extends the values. The results are again displayed using DumpRegs.
